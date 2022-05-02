@@ -1,5 +1,5 @@
 ## The Link between Mental Health and College Students in the New Normal of Tertiary Education
-(Strengthening college students' coping mechanisms toward mental stability amid the challenges of new the normal in tertiary education.)
+(Strengthening college students' coping mechanisms toward mental stability amid the challenges of the new normal in tertiary education.)
 
 ### Abstract
 <p align="justify"> The COVID-19 pandemic brought countless changes and challenges in various aspects of life. With this, everyone has their own coping mechanisms and strategies on how to cope and adapt to the said current situation. One of the changes is evident in the field of education. Flexible learning is the new learning setup being implemented and followed in the new normal of tertiary education. Associated to this is the mental health of college students, clearly, one of the aspects being challenged in the aforesaid setup. </p>
