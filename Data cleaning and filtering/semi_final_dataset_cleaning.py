@@ -17,3 +17,21 @@ semi_final_dts = pd.read_csv ('/content/drive/MyDrive/Colab Notebooks/final-proj
 semi_final_dts
 
 print(semi_final_dts.info())
+
+#mat note
+#cleaning 'Q6', 'Q7', 'Q8', 'Q17', 'Q20a', 'Q20b', 'Q20c', 'Q20d', 'Q20e', 'Q20f', 'Q21c'
+semi_final_dts.info()
+cols_q6_to_q21c = ['Q6', 'Q7', 'Q8', 'Q17', 'Q20a', 'Q20b', 'Q20c', 'Q20d', 'Q20e', 'Q20f', 'Q21c' ]
+
+semi_final_dts.columns
+
+for col in cols_q6_to_q21c:
+  if col == "Q7":
+    imputing_val = semi_final_dts[col].mean()
+  else:
+    imputing_val = semi_final_dts[col].mode()[0]
+    
+  semi_final_dts[col].fillna(imputing_val, inplace=True)
+
+semi_final_dts[cols_q6_to_q21c].info()
+#last cell ko(mat)
